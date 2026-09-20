@@ -9,6 +9,7 @@
   --color-text-p: #9ca3af;
 
   --color-accent: #c084fc;
+  --color-accent-text: #581c87;
   --color-accent-bg: rgba(192, 132, 252, 0.15);
   --color-accent-border: rgba(192, 132, 252, 0.5);
 
@@ -18,4 +19,53 @@
 
 body {
   @apply bg-bg text-text font-sans;
+}
+
+@layer components {
+  .label {
+    @apply w-fit text-sm ml-1 cursor-default mb-1.5;
+  }
+
+  .option-child {
+    @apply py-1 cursor-pointer w-full flex justify-center font-semibold text-sm;
+    @apply hover:bg-accent-bg;
+
+    &.active {
+      @apply bg-accent text-accent-text;
+    }
+  }
+
+  .card {
+    @apply flex flex-col gap-2 bg-border p-5 pt-3 rounded-xl;
+  }
+
+  .card-headline {
+    @apply text-lg text-accent font-semibold;
+  }
+
+  .p-status {
+    @apply w-fit;
+  }
+
+  .pipeline-dot {
+    @apply min-w-8 w-fit h-8 rounded-full bg-border;
+  }
+
+  .btn-small {
+    @apply h-8 text-sm rounded-md font-semibold cursor-pointer;
+  }
+
+  .btn-large {
+    @apply h-10 px-5 rounded-md font-semibold cursor-pointer;
+  }
+
+  .btn-primary {
+    @apply text-accent-text bg-accent;
+    @apply hover:bg-accent/70;
+  }
+
+  .btn-secondary {
+    @apply border border-accent-border;
+    @apply hover:bg-accent-bg;
+  }
 }

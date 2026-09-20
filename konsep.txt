@@ -1,0 +1,64 @@
+Adobe Stock Copilot
+
+--------------------------------
+
+1. Overview Card
+
+[ Total Prompt ]
+[ Ready Assets ]
+[ Metadata Generated ]
+[ Upload Queue ]
+
+
+--------------------------------
+
+2. Prompt Generator
+
+Niche:
+[____________]
+
+Style:
+[____________]
+
+Quantity:
+[__]
+
+[ Generate Prompt ]
+
+
+--------------------------------
+
+3. Recent Projects
+
+Ramadan Campaign
+50 prompts
+Status: Generated
+
+Luxury Interior
+100 prompts
+Status: Metadata Ready
+
+
+--------------------------------
+
+4. Asset Pipeline
+
+Generated
+↓
+Reviewed
+↓
+Upscaled
+↓
+Metadata
+↓
+Ready Upload
+
+
+--------------------------------
+
+5. Quick Actions
+
++ New Prompt
++ Upload Images
++ Generate Metadata
++ Export CSV
