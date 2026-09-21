@@ -1,35 +1,25 @@
 import { Routes, Route } from "react-router-dom";
+import { projectsDummy } from "./testing/dummydata";
 
 import Dashboard from "./pages/Dashboard";
 import Navbar from "./components/Navbar";
 import ProjectDetails from "./pages/ProjectDetails";
+import { stagesData } from "./datas/stages";
 
 function App() {
   //
-  const projects = [
-    {
-      id: 1,
-      title: "new year",
-      assets: 120,
-      prompts: 20,
-      images: 30,
-      reviewed: 20,
-      upscale: 10,
-      metadata: 30,
-      ready: 10,
-      status: {
-        stat: "Prompting",
-        percent: 50,
-      },
-    },
-  ];
+  const projects = projectsDummy;
+  const stages = stagesData;
 
   return (
     <div className="m-10">
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Dashboard projects={projects} />} />
+        <Route
+          path="/"
+          element={<Dashboard projects={projects} stages={stages} />}
+        />
 
         <Route
           path="/project/:id"

@@ -1,0 +1,16 @@
+flow nya
+
+> riset
+
+start > generate prompt > generate image inject to adobe firefly 
+> review > approved & rejected > upscaling inject to app upscly
+> generate metadata > upload to adobestock inject to web
+> monitoring upload > approved uploaded & rejected issues > finish
+
+stages
+01 > prompting & generating & downloading images
+02 > reviewing - get approved & rejected
+03 > upscaling
+04 > generating metadata
+05 > uploading assets
+06 > monitoring adobestock

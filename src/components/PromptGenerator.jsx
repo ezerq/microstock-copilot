@@ -12,7 +12,7 @@ function PromptGenerator() {
 
   return (
     <div className="card">
-      <h1 className="card-headline">Prompt Generator</h1>
+      <h1 className="card-headline">New Project</h1>
 
       <InputText
         label={"Niche"}
@@ -39,9 +39,9 @@ function PromptGenerator() {
         />
       </div>
 
-      <button className="btn-primary btn-small mt-2">Generate Prompt</button>
-
-      <button className="btn-small btn-secondary">Download Prompt.txt</button>
+      <button className="btn-primary btn-small mt-2">Start New Project</button>
+{/* 
+      <button className="btn-small btn-secondary">Download Prompt.txt</button> */}
     </div>
   );
 }
